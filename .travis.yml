@@ -1,7 +1,9 @@
 language: node_js
-
 node_js:
-  - "10"
-
+- '10'
 script:
-  - echo "skipping tests"
+- echo "skipping tests"
+deploy:
+  provider: heroku
+  api_key:
+    secure: dR22cLAr5jexzFrQRhXuIJjBp7umKp/ubrbuedXGE8yrp3zcq9cMCTh5rNctJHTs0eIxb6d0HI/EW8/PK92NW+ocQjw7uKWkmJXT/y8BqG5NVx4B1Nsu4QxhGmn79tHvrNNaiy2WTGZlG3TlmsV7sUdGaTNKtjfF5IyMdW+lnu+BROkf7U1CykRm+XpmdAEh8+UE8tMWu0kaMQ+R/8H+xcT9lmN+d3/W3xKO3VBxaGF0cu2bm0UkgFK/5kG+LCDlAGFA3lV0fXdAZgVE7COyd1fuP/0dFqJS5QO+OeZSqOpAzHkkzAEGjid+OlIswuqn2Bqgo0hKqbpVHdjij4TDI5EepfHhrJH9SAtHXCVFJCLrzeqrHQd4uD+oV3bR2mKmmmjqGrmjyzmLYjQ2904Du8jKhopGYYsFjRD+b7b5IoVhf29dWzqffAeM8htx1YBYvCBfixDryE0W6yx3lVRLWgp3f2h77i9/EJt0JQtxKngDYAaGyj0NTspqyW2V1g8YS8Mg7Li0sqVXuLAXhZdKkDaCsFE4wFaolFnBDdq71c2tUc6nWNZytv7NZJiDgUTx65+kQouxGc+XstCrRbVgFKkqSn3GbBGVqXQXdokpDC+2pcBtBwjcn5q8N95rjGPxx7CYJHUpj1T26gBCzJqay0nPvt/y3VBPQuRe0dWVg+w=
